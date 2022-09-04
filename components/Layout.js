@@ -22,7 +22,6 @@ export default function Layout({ children }) {
           display: none;
         }
         body {
-          margin: 0;
           -webkit-font-smoothing: antialiased;
           -moz-osx-font-smoothing: grayscale;
           transition: all 0.5s ease-out;
