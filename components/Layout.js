@@ -17,6 +17,7 @@ export default function Layout({ children }) {
           scroll-behavior: smooth;
           -ms-overflow-style: none;
           scrollbar-width: none;
+          font-family: Arial, Helvetica, sans-serif;
         }
         *::-webkit-scrollbar {
           display: none;

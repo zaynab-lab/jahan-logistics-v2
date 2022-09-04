@@ -1,4 +1,5 @@
 import Layout from "@/components/Layout";
+
 const MyApp = ({ Component, pageProps }) => {
   return (
     <Layout>

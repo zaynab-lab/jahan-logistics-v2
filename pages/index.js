@@ -1,12 +1,13 @@
-import { styles } from "@/public/js/styles";
-import TopBar from "@/components/molecule/TopBar";
+import PageLayout from "@/components/PageLayout";
 
 export default function IndexPage() {
   return (
     <>
-      <div>
-        <TopBar />
-      </div>
+      <PageLayout pageName="">
+        <div>
+          <div className="pageContent">Home</div>
+        </div>
+      </PageLayout>
     </>
   );
 }
