@@ -34,6 +34,15 @@ export default function IndexPage() {
           flex: 1 1 20rem;
           text-align: center;
           font-size: 2.2rem;
+          max-width: 24rem;
+          margin: auto;
+          padding: 2rem 0rem;
+          color: #444;
+        }
+        @media and screen (min-width: 90rem) {
+          .title {
+            text-align: left;
+          }
         }
         .emph {
           color: ${styles.primaryColor};
