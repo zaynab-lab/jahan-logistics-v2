@@ -38,7 +38,11 @@ export default function TopBar({ setMenu, pageName }) {
           ${styles.flex};
           ${styles.flexAligncenter};
           ${styles.justifyBetween};
+          position: sticky;
+          top: 0;
+          width: 100%;
         }
+
         .Logo {
           width: 70%;
           max-width: 12rem;
