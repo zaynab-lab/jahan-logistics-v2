@@ -41,6 +41,7 @@ export default function TopBar({ setMenu, pageName }) {
           position: sticky;
           top: 0;
           width: 100%;
+          z-index: 10;
         }
 
         .Logo {
