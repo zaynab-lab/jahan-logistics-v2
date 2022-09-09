@@ -6,45 +6,43 @@ export default function About() {
   return (
     <>
       <PageLayout pageName="About">
-        <div>
-          <div className="imgContainer"></div>
-          <div className="aboutSection">
-            <div className="aboutusTxt">About us</div>
-            <div className="aboutTxtImgContainer">
-              <div>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-                vulputate libero et velit interdum, ac aliquet odio mattis.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-                vulputate libero et velit interdum, ac aliquet odio mattis.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-                vulputate libero et velit interdum, ac aliquet odio mattis.
-              </div>
-              <div>
-                <img width="100%" src="./img/png/aboutImg.png" alt="" />
-              </div>
+        <div className="imgContainer"></div>
+        <div className="aboutSection">
+          <div className="aboutusTxt">About us</div>
+          <div className="aboutTxtImgContainer">
+            <div>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+              vulputate libero et velit interdum, ac aliquet odio mattis. Lorem
+              ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate
+              libero et velit interdum, ac aliquet odio mattis. Lorem ipsum
+              dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero
+              et velit interdum, ac aliquet odio mattis.
+            </div>
+            <div>
+              <img width="100%" src="./img/png/aboutImg.png" alt="" />
             </div>
           </div>
-          <div className="infoSection">
-            <div className="difTitle">WHAT MAKES US DIFFERENT</div>
-            <div className="infoSectionCards">
-              <div>24-HOUR SUPPORT</div>
-              <div>DELIVERY ON TIME</div>
-              <div>EASY PAYMENT</div>
-            </div>
-          </div>
-          <div className="infoSection">
-            <div className="difTitle">OUR VALUES</div>
-            <div className="infoSectionCardsc">
-              <div>Customer satisfaction</div>
-              <div>Using best technologies</div>
-              <div>Moving forward</div>
-            </div>
-          </div>
-          <div>
-            <img width="100%" src="./img/png/starthere.png" alt="" />
-          </div>
-          <Footer />
         </div>
+        <div className="infoSection">
+          <div className="difTitle">WHAT MAKES US DIFFERENT</div>
+          <div className="infoSectionCards">
+            <div>24-HOUR SUPPORT</div>
+            <div>DELIVERY ON TIME</div>
+            <div>EASY PAYMENT</div>
+          </div>
+        </div>
+        <div className="infoSection">
+          <div className="difTitle">OUR VALUES</div>
+          <div className="infoSectionCardsc">
+            <div>Customer satisfaction</div>
+            <div>Using best technologies</div>
+            <div>Moving forward</div>
+          </div>
+        </div>
+        <div>
+          <img width="100%" src="./img/png/starthere.png" alt="" />
+        </div>
+        <Footer />
       </PageLayout>
       <style jsx>{`
         .imgContainer {
