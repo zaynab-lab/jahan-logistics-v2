@@ -13,7 +13,7 @@ export default function () {
       <style jsx>{`
         .floatwts {
           background: green;
-          position: absolute;
+          position: fixed;
           bottom: 2rem;
           right: 2rem;
           font-size: 2.6rem;
