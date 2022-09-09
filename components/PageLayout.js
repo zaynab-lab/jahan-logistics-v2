@@ -1,6 +1,8 @@
 import { useState } from "react";
 import Menu from "./molecule/Menu";
 import TopBar from "./molecule/TopBar";
+import WtsFloat from "./atom/WtsFloat";
+
 // import Footer from "./section/Footer";
 
 export default function PageLayout({ children, pageName }) {
@@ -17,6 +19,7 @@ export default function PageLayout({ children, pageName }) {
       <div>
         <Menu setMenu={setMenu} menu={menu} pageName={pageName} />
       </div>
+      <WtsFloat />
     </>
   );
 }
