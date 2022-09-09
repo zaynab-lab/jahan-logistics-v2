@@ -61,6 +61,7 @@ export default function Services() {
           .cardImg {
             flex: 1 1 50%;
             padding: 2rem 0rem;
+            min-width: 40%;
           }
           .cardDescription {
             flex: 1 1 50%;
