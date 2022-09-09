@@ -55,6 +55,8 @@ export default function About() {
         }
         .aboutSection {
           padding: 3rem 1rem;
+          max-width: 70rem;
+          margin: auto;
         }
         .aboutusTxt {
           color: ${styles.primaryColor};
@@ -65,8 +67,8 @@ export default function About() {
           ${styles.flexBothncenter};
           flex-wrap: wrap;
           font-size: 1.1rem;
-          line-height: 1.6rem;
-          gap: 0.6rem;
+          line-height: calc(1.6rem + 1vw);
+          gap: calc(0.6rem + 3vw);
           padding: 0.6rem 0rem;
         }
         .aboutTxtImgContainer div {
@@ -74,17 +76,17 @@ export default function About() {
           text-align: justify;
           text-justify: inter-word;
         }
+        .infoSection {
+          padding: 3rem 2rem;
+          font-weight: bold;
+          text-align: center;
+        }
         .difTitle {
           color: ${styles.primaryColor};
           font-size: 2rem;
           padding: 2rem 0rem;
         }
-        .infoSection {
-          padding: 3rem 2rem;
-          max-width: 60rem;
-          font-weight: bold;
-          text-align: center;
-        }
+
         .infoSectionCards {
           ${styles.flex};
           ${styles.flexBothcenter};
