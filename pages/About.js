@@ -11,12 +11,13 @@ export default function About() {
           <div className="aboutusTxt">About us</div>
           <div className="aboutTxtImgContainer">
             <div>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-              vulputate libero et velit interdum, ac aliquet odio mattis. Lorem
-              ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate
-              libero et velit interdum, ac aliquet odio mattis. Lorem ipsum
-              dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero
-              et velit interdum, ac aliquet odio mattis.
+                 Established in 2017, Jahan Logistics is one of the leading full and partial freight companies throughout Middle East.
+ Jahan Logistics aim to redefining logistics, and freight services by playing an important role between customer’s trading requirements and the world out there.
+Supported by our strategies and our team, Jahan Logistics connects companies to the world safely through it’s wide services that simplifies your trading operations and even your personal life.
+These services includes the following, full-truck shipment, partial shipping starting from 1 kilogram, custom clearance services, money transfer, provide sourcing and beside all of this we insures goods from packaging to delivering until they reach your door.
+  Finally, because of our customer’s trust, our company believes it can achieve more successes, expand it’s services, and reach a high professional reputation in the shipping world. 
+<div>Co-Founder & CEO</div>
+<div>Akram Youssef El-Dirani</div>
             </div>
             <div>
               <img width="100%" src="./img/png/aboutImg.png" alt="" />
