@@ -91,13 +91,13 @@ const services = [
     name: "Source Providing",
     img: "sourceImg",
     paragraph:
-      "It is difficalut to find the most compettive price in Iran without help, as there are too many secrets involved."
+      "It is difficult to find the most competitive price in Iran without help, as there are too many secrets involved."
   },
   {
     name: "Export",
     img: "exportImg",
     paragraph:
-      "In order to provide you with the most value from our exporting services, it is essential that we provide partial shipping services."
+      "We provide you with the most efficiency exporting services, from full truck shipment to partial shipment starting from 1 kilograms exclusively at Jahan logistics."
   },
   {
     name: "Financial",
@@ -108,17 +108,17 @@ const services = [
     name: "Door to door",
     img: "doorImg",
     paragraph:
-      "don't hart your head more we are here to help.\n Our door to door service means for you."
+      "Don’t bother yourself more we are here to help. We provide you a fully service from Iran to your door in Lebanon."
   },
   {
     name: "Full Track Shipping",
     img: "trackImg",
-    paragraph: "It's not about just partial shipping, we have even more."
+    paragraph: "We give you the best price in town for your own container."
   },
   {
     name: "Warehouse",
     img: "wareImg",
     paragraph:
-      "In the shipping process, wholestores are often needed, so we provide them in both countries."
+      "In the shipping process, warehouses is a must, so your goods stored safely between this countries."
   }
 ];
